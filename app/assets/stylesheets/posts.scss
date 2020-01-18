@@ -25,28 +25,93 @@
     height: 40px;
     background-color: #eeeeee;
   }
-  &__rent-box {
-    background-color: #999999;
-    height: 250px;
-    width: 250px;
-    &__title {
-      background-color: #00dd00;
-      height: 50px;
-      text-align: center;
-      font-size: 35px;
-      color: white;
+  &__bar{
+    display: flex;
+    &__rent-box {
+      background-color: #999999;
+      height: 250px;
+      width: 250px;
+      &__title {
+        background-color: #00dd00;
+        height: 50px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+      }
+      &__type {
+        font-size: 15px;
+        text-align:center;
+      }
+      &__rent {
+        background-color: #ffffff;
+        height: 95px;
+        margin: 20px;
+        font-size: 40px;
+        padding-top: 20px;
+        text-align:center;
+      }
     }
-    &__type {
-      font-size: 15px;
-      text-align:center;
-    }
-    &__rent {
-      background-color: #ffffff;
-      height: 95px;
-      margin: 20px;
-      font-size: 40px;
-      padding-top: 20px;
-      text-align:center;
+    &__buy-box {
+      background-color: #999999;
+      height: 250px;
+      width: 400px;
+      margin-left: 10px;
+      &__title {
+        background-color: #00dd00;
+        height: 50px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+      }
+      &__types {
+        display: flex;
+        &__apartment{
+          width: 50%;
+          &__type{
+          font-size: 15px;
+          text-align:center;
+          }
+          &__new {
+            background-color: #ffffff;
+            height: 50px;
+            margin: 20px 20px 1px;
+            font-size: 20px;
+            padding-top: 20px;
+            text-align:center;
+          }
+          &__old {
+            background-color: #ffffff;
+            height: 50px;
+            margin: 5px 20px 20px;
+            font-size: 20px;
+            padding-top: 20px;
+            text-align:center;
+          }
+        }
+        &__house {
+          width: 50%;
+          &__type{
+            font-size: 15px;
+            text-align:center;
+          }
+          &__new {
+            background-color: #ffffff;
+            height: 50px;
+            margin: 20px 20px 1px;
+            font-size: 20px;
+            padding-top: 20px;
+            text-align:center;
+          }
+          &__old {
+            background-color: #ffffff;
+            height: 50px;
+            margin: 5px 20px 20px;
+            font-size: 20px;
+            padding-top: 20px;
+            text-align:center;
+          }
+        }
+      }
     }
   }
 }
