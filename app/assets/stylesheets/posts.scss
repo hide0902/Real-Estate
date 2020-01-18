@@ -1,0 +1,52 @@
+.header {
+  background-color: #00dd00;
+  height: 100px;
+  padding: 10px;
+  &__title {
+    font-size: 50px;
+    text-align: center;
+  }
+  &__sing-login {
+    display: flex;
+    float: right;
+    &__sing {
+      padding-right: 5px;
+    }
+    &__login {
+      
+    }
+  }
+}
+
+.main {
+  &__title {
+    text-align: center;
+    padding-top: 20px;
+    height: 40px;
+    background-color: #eeeeee;
+  }
+  &__rent-box {
+    background-color: #999999;
+    height: 250px;
+    width: 250px;
+    &__title {
+      background-color: #00dd00;
+      height: 50px;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+    }
+    &__type {
+      font-size: 15px;
+      text-align:center;
+    }
+    &__rent {
+      background-color: #ffffff;
+      height: 95px;
+      margin: 20px;
+      font-size: 40px;
+      padding-top: 20px;
+      text-align:center;
+    }
+  }
+}
